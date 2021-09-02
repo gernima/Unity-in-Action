@@ -1,0 +1,27 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1165; Version 2004; 64bit' Language: 'ru' Physical Memory: 4060 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity Editors\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/hobbies/Practice/Unity games/UIA 3 Person
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51274
+Successfully changed project path to: E:/hobbies/Practice/Unity games/UIA 3 Person
+E:/hobbies/Practice/Unity games/UIA 3 Person
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 404.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path E:/Unity Editors/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/hobbies/Practice/Unity games/UIA 3 Person/Assets
+GfxDevice: creating device client; threaded=0
