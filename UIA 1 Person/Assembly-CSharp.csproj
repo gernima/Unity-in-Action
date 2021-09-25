@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{521ED79C-5EAB-32DB-87E0-6ABC2C1DF060}</ProjectGuid>
+    <ProjectGuid>{C1999261-028D-FC87-07A3-04CBE98119CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,13 +65,25 @@
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\WeatherController.cs" />
     <Compile Include="Assets\Scripts\SettingsPopup.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
     <Compile Include="Assets\Scripts\BackAndForth.cs" />
-    <Compile Include="Assets\Scripts\Messenger.cs" />
-    <Compile Include="Assets\Scripts\GameEvent.cs" />
+    <Compile Include="Assets\Scripts\Managers\WeatherManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\IGameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\NetworkService.cs" />
+    <Compile Include="Assets\Scripts\Managers\Managers.cs" />
+    <Compile Include="Assets\Scripts\Managers\ImagesManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ManagerStatus.cs" />
+    <Compile Include="Assets\Scripts\Events\GameEvent.cs" />
+    <Compile Include="Assets\Scripts\Devices\DeviceOperator.cs" />
+    <Compile Include="Assets\Scripts\Devices\WebLoadingBillboard.cs" />
+    <Compile Include="Assets\Scripts\Events\Messenger.cs" />
+    <Compile Include="Assets\Scripts\Devices\CheckpointTrigger.cs" />
+    <Compile Include="Assets\Scripts\MiniJSON.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Materials\SkyboxBlended.shader" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Unity Editors\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -651,31 +663,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{C116F591-032A-568C-3704-B3D45F7F84F6}</Project>
+      <Project>{A96E76B2-0054-4755-AC2A-D2E6381DA821}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{727135BC-6478-9C33-FB16-FFA5EF3C5B09}</Project>
+      <Project>{88FF6364-0E61-F357-2984-A789594A058C}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{98C78C86-47FC-7072-C172-F305BA4EF50D}</Project>
+      <Project>{E00E3A99-54C8-E0A0-1053-649837A5CD38}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{0CD62721-BB90-F6E3-775E-427870B34206}</Project>
+      <Project>{3F62CEA8-48E1-67A4-BD94-11345FB34B08}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{DE70DD5E-B2BC-FBF7-2EA6-FA2CDE60CAEB}</Project>
+      <Project>{D4A2ADC6-066E-962B-5A88-C633A236EF9F}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{A12D6DD0-F0E0-D6E3-75C0-700928EC19E7}</Project>
+      <Project>{9C9957C8-5335-5EB1-2F09-9A75FD9AED17}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{CF03257E-50A9-6BB1-68F3-758EED468192}</Project>
+      <Project>{F59BE8AE-729C-D26A-12D7-7BD9F97206DB}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
   </ItemGroup>
