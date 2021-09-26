@@ -4,20 +4,24 @@ using System.Collections.Generic;
 
 [RequireComponent(typeof(WeatherManager))]
 [RequireComponent(typeof(ImagesManager))]
+[RequireComponent(typeof(AudioManager))]
 
 public class Managers : MonoBehaviour {
 	public static WeatherManager Weather {get; private set;}
 	public static ImagesManager Images {get; private set;}
+	public static AudioManager Audio { get; private set; }
 
 	private List<IGameManager> _startSequence;
 	
 	void Awake() {
 		Weather = GetComponent<WeatherManager>();
 		Images = GetComponent<ImagesManager>();
+		Audio = GetComponent<AudioManager>();
 
 		_startSequence = new List<IGameManager>();
 		_startSequence.Add(Weather);
 		_startSequence.Add(Images);
+		_startSequence.Add(Audio);
 
 		StartCoroutine(StartupManagers());
 	}

@@ -57,30 +57,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UIController.cs" />
-    <Compile Include="Assets\Scripts\FPSInput.cs" />
-    <Compile Include="Assets\Scripts\SceneController.cs" />
-    <Compile Include="Assets\Scripts\RayShooter.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\Fireball.cs" />
-    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
-    <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
-    <Compile Include="Assets\Scripts\Spin.cs" />
-    <Compile Include="Assets\Scripts\WeatherController.cs" />
-    <Compile Include="Assets\Scripts\SettingsPopup.cs" />
-    <Compile Include="Assets\Scripts\WanderingAI.cs" />
-    <Compile Include="Assets\Scripts\BackAndForth.cs" />
-    <Compile Include="Assets\Scripts\Managers\WeatherManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\IGameManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\NetworkService.cs" />
-    <Compile Include="Assets\Scripts\Managers\Managers.cs" />
-    <Compile Include="Assets\Scripts\Managers\ImagesManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\ManagerStatus.cs" />
+    <Compile Include="Assets\Scripts\Events\Messenger.cs" />
     <Compile Include="Assets\Scripts\Events\GameEvent.cs" />
     <Compile Include="Assets\Scripts\Devices\DeviceOperator.cs" />
-    <Compile Include="Assets\Scripts\Devices\WebLoadingBillboard.cs" />
-    <Compile Include="Assets\Scripts\Events\Messenger.cs" />
+    <Compile Include="Assets\Scripts\FPSInput.cs" />
+    <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Managers\NetworkService.cs" />
+    <Compile Include="Assets\Scripts\Managers\ManagerStatus.cs" />
+    <Compile Include="Assets\Scripts\RayShooter.cs" />
+    <Compile Include="Assets\Scripts\Managers\ImagesManager.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Devices\CheckpointTrigger.cs" />
+    <Compile Include="Assets\Scripts\Fireball.cs" />
+    <Compile Include="Assets\Scripts\Managers\Managers.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
     <Compile Include="Assets\Scripts\MiniJSON.cs" />
+    <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\WeatherController.cs" />
+    <Compile Include="Assets\Scripts\Devices\WebLoadingBillboard.cs" />
+    <Compile Include="Assets\Scripts\SettingsPopup.cs" />
+    <Compile Include="Assets\Scripts\Managers\WeatherManager.cs" />
+    <Compile Include="Assets\Scripts\WanderingAI.cs" />
+    <Compile Include="Assets\Scripts\BackAndForth.cs" />
+    <Compile Include="Assets\Scripts\Managers\IGameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Materials\SkyboxBlended.shader" />

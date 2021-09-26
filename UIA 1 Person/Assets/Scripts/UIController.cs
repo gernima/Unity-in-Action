@@ -33,4 +33,22 @@ public class UIController : MonoBehaviour
     {
         settings.Open();
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            bool isShowing = settings.gameObject.activeSelf;
+            settings.gameObject.SetActive(!isShowing);
+
+            if (isShowing)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            } else
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+        }
+    }
 }

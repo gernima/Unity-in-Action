@@ -99,8 +99,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\SwitchPlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\NUnitExtension\Attributes\TestPlayerBuildModifierAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\NUnitExtension\Attributes\AssetPipelineIgnore.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\TestLaunchers\PostbuildCleanupAttributeFinder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\TestRunner\Utils\ITestListProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\TestLaunchers\PostbuildCleanupAttributeFinder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\GUI\Views\PlayModeTestListGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\GUI\TestListBuilder\TestFilterSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEditor.TestRunner\Api\TestAdaptor.cs" />
